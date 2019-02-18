@@ -1,0 +1,27 @@
+{
+  "name": "pool",
+  "version": "0.1.0",
+  "description": "pools of things",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "lint": "eslint lib",
+    "docs": "jsdoc lib --readme README.md -d coverage"
+  },
+  "keywords": [
+    "pool",
+    "resource",
+    "concurrency",
+    "pooling",
+    "connections"
+  ],
+  "author": "Josh Bielick",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "ava": "1.2.1",
+    "eslint": "5.14.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "jsdoc": "3.5.5",
+    "nyc": "13.3.0"
+  }
+}
